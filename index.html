@@ -9,10 +9,11 @@
     <title>Vue AJAX</title>
 </head>
 <body>
-    
+
+    <h1 style="text-align: center; color: white; margin-top: 30px;">AJAX CALL</h1>
     <div class="card" id="app">
-        <ul>
-            <li>ciao</li>
+        <ul v-if="email.length === 10">
+            <li style="list-style-type: none;">{{ email }}</li>
         </ul>
     </div>
 
